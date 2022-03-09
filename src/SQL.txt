@@ -1,0 +1,12 @@
+CREATE TABLE Users (
+    Name varchar(255) not null,
+    LastName varchar(255) not null,
+    Age int not null,
+    UserID varchar(255)
+);
+
+insert into Users values
+    ('Yan', 'Green', 35, 'YanGreen35'),
+    ('Helen', 'Path', 28, 'HelenPath28'),
+    ('Tony', 'Montana', 41, 'TonyMontana41'),
+    ('Jhon', 'Smith', 25, 'JhonSmith25');
